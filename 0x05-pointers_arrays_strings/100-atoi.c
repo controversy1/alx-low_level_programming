@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * _atoi - dose some shit
+ * @s: does stuff
  * Return: the int converted from the dtring
  */
 int _atoi(char *s)
