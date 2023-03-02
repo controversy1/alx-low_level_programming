@@ -6,7 +6,7 @@
  * @src: input value
  * Return: void
  */
-cha *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
@@ -20,7 +20,7 @@ cha *_strcat(char *dest, char *src)
 	j = 0;
 	while (src[j] != '\0')
 	{
-		dest[i] = scr[j];
+		dest[i] = src[j];
 		i++;
 		j++;
 	}
