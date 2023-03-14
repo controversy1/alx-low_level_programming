@@ -1,0 +1,1 @@
+i am suppossed too make moer ediscriptive readmes but it is wat it is i gat no time bitches lol if my repo is public this would be very embarrassing to whim ever reading this i am normall but dyslexic hence the many typos lol also learning programming is it my calling you ask i dont know
