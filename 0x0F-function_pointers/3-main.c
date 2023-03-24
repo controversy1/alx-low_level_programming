@@ -8,12 +8,12 @@
  * @argv: An array of pointers to the arguemnts.
  * Return: Always 0
  */
-int main(int__attribute__((__unused__)) argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
 
-	if (arg != 4)
+	if (argv != 4)
 	{
 		printf("Error\n");
 		exit(98);
@@ -32,7 +32,7 @@ int main(int__attribute__((__unused__)) argc, char *argv[])
 			(*op == '%' && num2 == 0))
 	{
 		printf("Error\n");
-		extit(100);
+		exit(100);
 	}
 	printf("%d\n", get_op_func(op)(num1, num2));
 	return (0);
