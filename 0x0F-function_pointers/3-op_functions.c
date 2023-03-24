@@ -24,9 +24,9 @@ int op_add(int a, int b)
  *
  * Return: Th eproduct of a and b.
  */
-int op_mul(int a, int b)
+int op_sub(int a, int b)
 {
-	return (a * b);
+	return (a - b);
 }
 /**
  * op_mul - return the multiplication of two numbers
